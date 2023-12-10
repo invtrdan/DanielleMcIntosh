@@ -356,6 +356,43 @@ nav .hamburger.active .bar {
         height: 300px;
     }
 
+    .home .home-info {
+        justify-content: center; 
+        text-align: center; 
+    }
+
+    .home-info .left,
+    .home-info .right {
+        width: 100%; 
+        flex: none; 
+    }
+
+    .left h3,
+    .left h1,
+    .left h4,
+    .left p {
+        text-align: center;
+    }
+
+    .right {
+        display: flex;
+        justify-content: center; 
+    }
+
+    .right .profile img {
+        max-width: 100%; 
+        height: auto; 
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    nav .logo a {
+        text-align: center;
+        display: block; 
+    }
+
 }
 
 .linkedin-badge {
