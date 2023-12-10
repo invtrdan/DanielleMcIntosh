@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     new Typed('#typed', {
-        strings: ["a passionate front-end developer", "an enthusiastic coder", "a creative designer"],
+        strings: ["Software Engineer", "Data Scientist", "Coffee Lover", "Jamaican Innovator"],
         typeSpeed: 50,
         backSpeed: 25,
         smartBackspace: true,
