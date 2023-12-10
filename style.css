@@ -1,0 +1,50 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Responsive image styling */
+.profile-photo {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Dynamic typing styling */
+#typed {
+    color: #00bfff; /* Sample dynamic typing color */
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+    .profile-photo {
+        width: 150px; /* Larger size on tablet and desktop */
+    }
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1024px) {
+    .profile-photo {
+        width: 200px; /* Even larger size on desktop */
+    }
+}
