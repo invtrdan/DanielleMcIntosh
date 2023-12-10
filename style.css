@@ -70,11 +70,6 @@ nav ul li a:hover {
     color: var(--text-color);
 }
 
-nav ul li a.active {
-    text-decoration: underline;
-    color: var(--text-color); 
-}
-
 nav .hamburger {
     position: relative;
     width: 30px;
