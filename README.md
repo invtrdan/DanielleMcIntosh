@@ -1,2 +1,0 @@
-# DanielleMcIntosh
-portfolio
