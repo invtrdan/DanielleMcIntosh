@@ -13,6 +13,7 @@ body {
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
     background-color: #000;
+    color: #fff;
 }
 
 :root {
