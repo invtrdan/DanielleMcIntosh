@@ -519,6 +519,30 @@ nav .hamburger.active .bar {
     to {opacity: 1;}
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+    margin: auto; 
+    align-items: center; 
+    font-family: 'Rubik', sans-serif;
+}
+
+input,
+select,
+textarea{
+    padding: 1.4rem;
+    background: transparent;
+    border: 1px solid white;
+    width: 100%; /* Set the width to 100% of the form */
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 6rem;
+}
+
 button {
     font-size: 15px;
     font-weight: 600;
@@ -537,4 +561,6 @@ button:hover {
     color: var(--text-color);
     background: transparent;
 }
+
+
   
