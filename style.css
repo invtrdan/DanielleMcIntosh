@@ -519,6 +519,13 @@ nav .hamburger.active .bar {
     to {opacity: 1;}
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+}
+
 input,
 select,
 textarea{
