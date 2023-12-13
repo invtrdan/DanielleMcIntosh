@@ -207,8 +207,8 @@ nav .hamburger.active .bar {
 }
 
 .right .profile img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     border-radius: 50%;
     border: 6px solid var(--text-color);
