@@ -581,3 +581,16 @@ button:hover {
         max-width: 100%; 
     }
 }
+
+.stylish-link {
+    font-size: 18px;
+    color: #6DCDFF; 
+    text-decoration: none; 
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; 
+}
+
+.stylish-link:hover {
+    color: #000; 
+    text-decoration: underline; 
+}
