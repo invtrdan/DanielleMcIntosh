@@ -469,4 +469,58 @@ nav .hamburger.active .bar {
     }
 }
 
+.skills-section {
+    margin: 20px;
+}
 
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+    border-bottom: 3px solid transparent;
+}
+
+.tab:hover {
+    border-bottom: 3px solid #6DCDFF;
+}
+
+.tab.active {
+    border-bottom: 3px solid #6DCDFF;
+}
+
+.tab-content {
+    display: none;
+    animation: fadeEffect 1s;
+    padding: 20px;
+    border-top: none;
+}
+
+.skill {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+}
+
+/* Animation for the tab content */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.skills-heading {
+    text-align: center;
+    color: #6DCDFF;
+  }
+  
