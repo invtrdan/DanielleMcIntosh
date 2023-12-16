@@ -1,127 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>About</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>About</title>
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">
-                    <a href="#"><span>Danielle</span> McIntosh</a>
-                </div>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#" class="active">About</a></li>
-                    <li><a href="resources.html">Resources</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <button class="hamburger">
-                    <div class="bar"></div>
-                </button>
-            </nav>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="#"><span>Danielle</span> McIntosh</a>
         </div>
-    </header>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#" class="active">About</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </nav>
+    </div>
+  </header>
 
-    <div class="about-section">
-        <div class="about-image">
-            <img src="images/Headshot-Transparent-Background.png" alt="">
-        </div>
-        <div class="about-content">
-            <br>
-            <h2>About Me</h2>
-            <p>Hello World! I'm Danielle McIntosh, a senior Computer Science student at Howard University with a vibrant passion that sits at the intersection of technology and creativity. Born and raised in the charming city of Kingston, Jamaica, I bring a blend of cultural richness and innovative thinking to the world of computing.</p>
-            <p>My journey through Computer Science is fueled by my fascination with Artificial Intelligence and Data Science — fields that I believe are the frontiers of our future. But beyond the algorithms and data, I find joy in the creative aspects of technology, whether it's designing intuitive mobile apps or crafting responsive websites.</p>
-            <p>Between my studies, I indulge in the simple pleasures of life. I'm an ardent coffee shop enthusiast, musician and pianist. I also have a profound love for travel. It's an avenue that opens up new horizons, bringing with it the excitement of exploring diverse cultures and landscapes. Traveling enriches my perspective, allowing me to weave together the tapestry of global experiences with my personal and professional growth.</p>
-            <p>As I approach the culmination of my studies at Howard University, I am excited about the opportunities that await and the challenges that beckon.</p>
-        </div>
+  <div class="about-section">
+    <div class="about-image">
+      <img src="images/Headshot-Transparent-Background.png" alt="">
+    </div>
+    <div class="about-content">
+      <br>
+      <h2>About Me</h2>
+      <p>Hello World! I'm Danielle McIntosh, a senior Computer Science student at Howard University with a vibrant
+        passion that sits at the intersection of technology and creativity. Born and raised in the charming city of
+        Kingston, Jamaica, I bring a blend of cultural richness and innovative thinking to the world of computing.</p>
+      <p>My journey through Computer Science is fueled by my fascination with Artificial Intelligence and Data Science —
+        fields that I believe are the frontiers of our future. But beyond the algorithms and data, I find joy in the
+        creative aspects of technology, whether it's designing intuitive mobile apps or crafting responsive websites.
+      </p>
+      <p>Between my studies, I indulge in the simple pleasures of life. I'm an ardent coffee shop enthusiast and
+        musician. I also have a profound love for travel as it's an avenue that opens up new horizons, bringing with it
+        the excitement of exploring diverse cultures and landscapes. Traveling enriches my perspective, allowing me to
+        weave together the tapestry of global experiences with my personal and professional growth.
+      </p>
+      <p>As I approach the culmination of my studies at Howard University, I am excited about the opportunities that
+        await and the challenges that beckon.</p>
+    </div>
+  </div>
+
+  <h2 style="text-align: center; color: #6DCDFF;">Technical Skills</h2>
+
+  <div class="skills-section">
+    <div class="tabs">
+      <button class="tab" onclick="openSkillTab('programming-languages')">Programming Languages</button>
+      <button class="tab" onclick="openSkillTab('frameworks-libraries')">Frameworks & Libraries</button>
+      <button class="tab" onclick="openSkillTab('tools-platforms')">Tools & Platforms</button>
+    </div>
+    <div id="programming-languages" class="tab-content">
+      <div class="skill">C</div>
+      <div class="skill">C#</div>
+      <div class="skill">C++</div>
+      <div class="skill">Java</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Kotlin</div>
+      <div class="skill">Python</div>
+      <div class="skill">Swift</div>
+      <div class="skill">TypeScript</div>
     </div>
 
-    <h2 style="text-align: center; color: #6DCDFF;">Technical Skills</h2>
-
-    <div class="skills-section">
-        <div class="tabs">
-            <button class="tab" onclick="openSkillTab('programming-languages')">Programming Languages</button>
-            <button class="tab" onclick="openSkillTab('frameworks-libraries')">Frameworks & Libraries</button>
-            <button class="tab" onclick="openSkillTab('databases')">Databases</button>
-            <button class="tab" onclick="openSkillTab('tools-platforms')">Tools & Platforms</button>
-        </div>
-        <div id="programming-languages" class="tab-content">
-            <div class="skill">C</div>
-            <div class="skill">C#</div>
-            <div class="skill">C++</div>
-            <div class="skill">Java</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">Kotlin</div>
-            <div class="skill">Python</div>
-            <div class="skill">Swift</div>
-            <div class="skill">TypeScript</div>
-        </div>
-  
-        <div id="frameworks-libraries" class="tab-content">
-            <div class="skill">Django</div>
-            <div class="skill">Flask</div>
-            <div class="skill">Node.js</div>
-            <div class="skill">NumPy</div>
-            <div class="skill">Pandas</div>
-            <div class="skill">PyTorch</div>
-            <div class="skill">React</div>
-            <div class="skill">TensorFlow</div>
-        </div>
-  
-        <div id="databases" class="tab-content">
-            <div class="skill">Amazon DynamoDB</div>
-            <div class="skill">Firebase Realtime Database</div>
-            <div class="skill">MySQL</div>
-        </div>
-  
-        <div id="tools-platforms" class="tab-content">
-            <div class="skill">Amazon Web Services</div>
-            <div class="skill">Bitbucket</div>
-            <div class="skill">Eclipse</div>
-            <div class="skill">Git</div>
-            <div class="skill">GitHub</div>
-            <div class="skill">GitLab</div>
-            <div class="skill">GitLab CI/CD</div>
-            <div class="skill">Google Cloud Platform</div>
-            <div class="skill">JUnit</div>
-            <div class="skill">Linux distributions</div>
-            <div class="skill">macOS</div>
-            <div class="skill">Matplotlib</div>
-            <div class="skill">Microsoft Azure</div>
-            <div class="skill">Microsoft Office Suite</div>
-            <div class="skill">PyCharm</div>
-            <div class="skill">Slack</div>
-            <div class="skill">Visual Studio Code</div>
-            <div class="skill">Windows</div>
-            <div class="skill">Xcode</div>
-        </div>
-      
+    <div id="frameworks-libraries" class="tab-content">
+      <div class="skill">Django</div>
+      <div class="skill">Flask</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">NumPy</div>
+      <div class="skill">Pandas</div>
+      <div class="skill">PyTorch</div>
+      <div class="skill">React</div>
+      <div class="skill">TensorFlow</div>
     </div>
-  
-    <script>
-        // JavaScript function to switch tabs
-        function openSkillTab(tabName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tab-content");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tab");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(tabName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-    </script>
-    
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="main.js"></script>
+
+    <div id="tools-platforms" class="tab-content">
+      <div class="skill">Amazon Web Services</div>
+      <div class="skill">Amazon DynamoDB</div>
+      <div class="skill">Bitbucket</div>
+      <div class="skill">Eclipse</div>
+      <div class="skill">Firebase Realtime Database</div>
+      <div class="skill">Git</div>
+      <div class="skill">GitHub</div>
+      <div class="skill">GitLab</div>
+      <div class="skill">GitLab CI/CD</div>
+      <div class="skill">Google Cloud Platform</div>
+      <div class="skill">JUnit</div>
+      <div class="skill">Linux distributions</div>
+      <div class="skill">macOS</div>
+      <div class="skill">Matplotlib</div>
+      <div class="skill">Microsoft Azure</div>
+      <div class="skill">Microsoft Office Suite</div>
+      <div class="skill">MySQL</div>
+      <div class="skill">PyCharm</div>
+      <div class="skill">Slack</div>
+      <div class="skill">Visual Studio Code</div>
+      <div class="skill">Windows</div>
+      <div class="skill">Xcode</div>
+    </div>
+
+  </div>
+
+  <script>
+    // JavaScript function to switch tabs
+    function openSkillTab(tabName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tab-content");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tab");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+
+
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="main.js"></script>
 </body>
+
 </html>
