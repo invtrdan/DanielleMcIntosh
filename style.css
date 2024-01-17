@@ -24,7 +24,7 @@ body {
     --mob-color: #000;
 }
 
-h2 {
+h2, h3 {
     color: var(--text-color);
 }
 
@@ -599,5 +599,28 @@ button:hover {
 
 .stylish-link:hover {
     color: #000; 
+    text-decoration: underline; 
+}
+
+article {
+    background-color: #333;
+    padding: 15px;
+    margin: 10px 60px;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+.project-link, .code-link {
+    color: var(--text-color); 
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
+
+.project-link:hover, .code-link:hover {
+    color: var(--white); 
     text-decoration: underline; 
 }
