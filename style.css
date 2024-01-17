@@ -495,8 +495,7 @@ nav .hamburger.active .bar {
 }
 
 .tab.active {
-    background-color: #6DCDFF; 
-    color: #000; 
+    color: #6DCDFF; 
     border-bottom: none;
 }
 
