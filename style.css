@@ -491,12 +491,15 @@ nav .hamburger.active .bar {
 }
 
 .tab:hover {
-    border-bottom: 3px solid #6DCDFF;
+    border-bottom: none;
 }
 
 .tab.active {
-    border-bottom: 3px solid #6DCDFF;
+    background-color: #6DCDFF; 
+    color: #000; 
+    border-bottom: none;
 }
+
 
 .tab-content {
     display: none;
