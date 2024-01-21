@@ -24,7 +24,8 @@ body {
     --mob-color: #000;
 }
 
-h2, h3 {
+h2,
+h3 {
     color: var(--text-color);
 }
 
@@ -342,8 +343,8 @@ nav .hamburger.active .bar {
     }
 
     .home .home-info {
-        justify-content: center; 
-        text-align: center; 
+        justify-content: center;
+        text-align: center;
     }
 
     .left h3 {
@@ -369,14 +370,14 @@ nav .hamburger.active .bar {
     }
 
     .home .home-info {
-        justify-content: center; 
-        text-align: center; 
+        justify-content: center;
+        text-align: center;
     }
 
     .home-info .left,
     .home-info .right {
-        width: 100%; 
-        flex: none; 
+        width: 100%;
+        flex: none;
     }
 
     .left h3,
@@ -388,12 +389,12 @@ nav .hamburger.active .bar {
 
     .right {
         display: flex;
-        justify-content: center; 
+        justify-content: center;
     }
 
     .right .profile img {
-        max-width: 100%; 
-        height: auto; 
+        max-width: 100%;
+        height: auto;
     }
 
     nav ul {
@@ -402,7 +403,7 @@ nav .hamburger.active .bar {
 
     nav .logo a {
         text-align: center;
-        display: block; 
+        display: block;
     }
 
 }
@@ -413,7 +414,7 @@ nav .hamburger.active .bar {
 }
 
 .badge img {
-    width: 35px; 
+    width: 35px;
     height: 35px;
     transition: opacity 0.3s ease-in-out;
 }
@@ -427,14 +428,14 @@ nav .hamburger.active .bar {
     align-items: center;
     justify-content: space-around;
     padding: 50px;
-    background-color: black; 
+    background-color: black;
     border-radius: 8px;
     margin: 20px;
 }
 
 .about-image img {
-    max-width: 100%; 
-    height: auto; 
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 50%;
     border: 6px solid var(--text-color);
@@ -446,7 +447,7 @@ nav .hamburger.active .bar {
 }
 
 .about-content h2 {
-    color: #6DCDFF; 
+    color: #6DCDFF;
     margin-bottom: 20px;
 }
 
@@ -463,7 +464,8 @@ nav .hamburger.active .bar {
         text-align: center;
     }
 
-    .about-image, .about-content {
+    .about-image,
+    .about-content {
         width: 100%;
     }
 
@@ -494,7 +496,7 @@ nav .hamburger.active .bar {
 }
 
 .tab.active {
-    color: #6DCDFF; 
+    color: #6DCDFF;
     border-bottom: none;
 }
 
@@ -516,8 +518,13 @@ nav .hamburger.active .bar {
 
 /* Animation for the tab content */
 @keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 form {
@@ -529,11 +536,11 @@ form {
 
 input,
 select,
-textarea{
+textarea {
     padding: 1.4rem;
     background: transparent;
     border: 1px solid white;
-    width: 100%; 
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -566,34 +573,35 @@ button:hover {
         text-align: center;
     }
 
-    .about-image, .about-content {
+    .about-image,
+    .about-content {
         width: 100%;
     }
 
     .about-image img {
-        max-width: 100%; 
-        margin: 0 auto; 
+        max-width: 100%;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 567px) {
 
     .about-image img {
-        max-width: 100%; 
+        max-width: 100%;
     }
 }
 
 .stylish-link {
     font-size: 18px;
-    color: #6DCDFF; 
-    text-decoration: none; 
+    color: #6DCDFF;
+    text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease-in-out; 
+    transition: color 0.3s ease-in-out;
 }
 
 .stylish-link:hover {
-    color: #000; 
-    text-decoration: underline; 
+    color: #000;
+    text-decoration: underline;
 }
 
 article {
@@ -608,13 +616,32 @@ footer {
     color: #fff;
 }
 
-.project-link, .code-link {
-    color: var(--text-color); 
+.project-link,
+.code-link {
+    color: var(--text-color);
     text-decoration: none;
     transition: color 0.4s ease;
 }
 
-.project-link:hover, .code-link:hover {
-    color: var(--white); 
-    text-decoration: underline; 
+.project-link:hover,
+.code-link:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #6DCDFF;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #fff;
 }
