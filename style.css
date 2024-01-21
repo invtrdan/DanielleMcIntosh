@@ -628,20 +628,3 @@ footer {
     color: var(--white);
     text-decoration: underline;
 }
-
-.download-button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px 0;
-    background-color: #6DCDFF;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.download-button:hover {
-    background-color: #fff;
-}
