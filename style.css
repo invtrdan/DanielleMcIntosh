@@ -213,7 +213,7 @@ nav .hamburger.active .bar {
 }
 
 .right .profile img {
-    width: 400px;
+    width: 500px;
     height: 400px;
     object-fit: cover;
     border-radius: 50%;
@@ -276,8 +276,6 @@ nav .hamburger.active .bar {
     nav ul.active {
         left: 0%;
     }
-
-    /* Home Section */
 
     .home {
         position: relative;
@@ -516,7 +514,6 @@ nav .hamburger.active .bar {
     border-radius: 4px;
 }
 
-/* Animation for the tab content */
 @keyframes fadeEffect {
     from {
         opacity: 0;
