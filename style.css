@@ -129,7 +129,7 @@ nav .hamburger.active .bar {
     width: 100%;
     height: 100vh;
     z-index: -1;
-    padding: 250px 0 50px;
+    padding: 150px 0 50px;
 }
 
 .home .home-info {
@@ -214,7 +214,7 @@ nav .hamburger.active .bar {
 
 .right .profile img {
     width: 500px;
-    height: 400px;
+    height: 500px;
     object-fit: cover;
     border-radius: 50%;
     border: 6px solid var(--text-color);
@@ -432,8 +432,9 @@ nav .hamburger.active .bar {
 }
 
 .about-image img {
-    max-width: 100%;
-    height: auto;
+    width: 500px;
+    height: 500px;
+    /* height: auto; */
     object-fit: cover;
     border-radius: 50%;
     border: 6px solid var(--text-color);
