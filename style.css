@@ -212,6 +212,7 @@ nav .hamburger.active .bar {
     text-align: right;
 }
 
+.about-image img,
 .right .profile img {
     width: 500px;
     height: 500px;
@@ -446,7 +447,7 @@ nav .hamburger.active .bar {
     margin: 20px;
 }
 
-.about-image img {
+/* .about-image img {
     width: 500px;
     height: 500px;
     object-fit: cover;
@@ -454,7 +455,7 @@ nav .hamburger.active .bar {
     border: 6px solid var(--text-color);
     box-shadow: 0 0 60px var(--text-color);
     transition: width 0.5s ease, height 0.5s ease;
-}
+} */
 
 .about-content {
     max-width: 600px;
