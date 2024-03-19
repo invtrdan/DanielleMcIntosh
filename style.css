@@ -301,10 +301,10 @@ nav .hamburger.active .bar {
         width: 100%;
     }
 
-    .about-image img {
+    /* .about-image img {
         width: 400px;
         height: 400px;
-    }
+    } */
 }
 
 @media screen and (max-width: 767px) {
