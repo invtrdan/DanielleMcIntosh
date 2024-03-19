@@ -240,6 +240,11 @@ nav .hamburger.active .bar {
         width: 450px;
         height: 450px;
     }
+
+    .about-image img {
+        width: 450px;
+        height: 450px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -294,6 +299,11 @@ nav .hamburger.active .bar {
     .left p {
         width: 100%;
     }
+
+    .about-image img {
+        width: 400px;
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -316,6 +326,11 @@ nav .hamburger.active .bar {
     .right .profile img {
         width: 375px;
         height: 375px;
+    }
+
+    .about-image img {
+        width: 350px;
+        height: 350px;
     }
 }
 
@@ -404,6 +419,16 @@ nav .hamburger.active .bar {
         display: block;
     }
 
+    .right .profile img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .about-image img {
+        width: 300px;
+        height: 300px;
+    }
+
 }
 
 .badge {
@@ -438,6 +463,7 @@ nav .hamburger.active .bar {
     border-radius: 50%;
     border: 6px solid var(--text-color);
     box-shadow: 0 0 60px var(--text-color);
+    transition: width 0.5s ease, height 0.5s ease;
 }
 
 .about-content {
@@ -462,14 +488,10 @@ nav .hamburger.active .bar {
         text-align: center;
     }
 
-    .about-image,
     .about-content {
         width: 100%;
     }
 
-    .about-image img {
-        margin-bottom: 20px;
-    }
 }
 
 .skills-section {
@@ -562,30 +584,6 @@ button:hover {
     transform: translateY(-5px);
     color: var(--text-color);
     background: transparent;
-}
-
-@media (max-width: 768px) {
-    .about-section {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .about-image,
-    .about-content {
-        width: 100%;
-    }
-
-    .about-image img {
-        max-width: 100%;
-        margin: 0 auto;
-    }
-}
-
-@media (max-width: 567px) {
-
-    .about-image img {
-        max-width: 100%;
-    }
 }
 
 .stylish-link {
