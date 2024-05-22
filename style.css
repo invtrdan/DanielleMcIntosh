@@ -473,7 +473,7 @@ nav .hamburger.active .bar {
 }
 
 
-.timeline {
+/* .timeline {
     position: relative;
     max-width: 800px;
     width: 100%;
@@ -531,10 +531,10 @@ nav .hamburger.active .bar {
 
 .content {
     padding: 20px 30px;
-    /* background-color: black; */
+    background-color: black;
     position: relative;
     border-radius: 6px;
-}
+} */
 
 @media (max-width: 768px) {
     .about-section {
